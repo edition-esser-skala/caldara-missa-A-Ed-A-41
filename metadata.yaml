@@ -1,0 +1,16 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Liberæ dispositionis
+genre: mass
+scoring: S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: A 41
+    rism: 600037826
+    url: http://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/690.html
+    license: public domain
+    principal: true
+imslp:
