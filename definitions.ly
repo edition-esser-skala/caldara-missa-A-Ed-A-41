@@ -7,8 +7,11 @@
 
 
 tempoKyrie = \tempoMarkup "Andante"
-  tempoKyrieB = \tempo 1 = 60
-  % tempoKyrieB = \tempoMarkup "Allabreve"
+  tempoKyrieB = \tempoMarkup "Allabreve"
+tempoGloria = \tempoMarkup "[Allegro]"
+  tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoSuscipe = \tempoMarkup "Andante"
+  tempoQuoniam = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

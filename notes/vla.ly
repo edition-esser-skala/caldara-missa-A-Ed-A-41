@@ -48,3 +48,63 @@ KyrieViola = {
     f\breve\fermata \bar "|." %47 finis
   }
 }
+
+GloriaViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 3/4 \tempoGloria
+    r4 f8\fE f f f
+    f4 f,8 f f f
+    f4 b' f
+    g2 c,4
+    R2. %5
+    r4 es8 es es es
+    f4 f2
+    f r4
+    R2.*11 %19
+    r4 d\f f8 f %20
+    f f f g f4
+    f2 r4
+    r f f
+    f f g
+    f r r %25
+    R2.*22 \bar "||" %47
+    \time 4/4 r4 \tempoQuiTollis b\fE b2 \noBreak
+    a2^\critnote r8 a a a
+    g4 g r d8 d %50
+    d4 d d c
+    e2 e
+    r4 e^\critnote e2
+    e2 r8 cis cis cis \noBreak
+    d2 d \bar "||" %55
+    \time 3/2 \tempoSuscipe \newSpacingSection R1.*5 %60
+    r2 r a'\fE
+    f f f
+    f2. f4 f2
+    f1 f2
+    r d d %65
+    d d d
+    es es es
+    e e e
+    d c! b
+    a1 b4 c %70
+    d2 d1
+    d c2~
+    c g1 \noBreak
+    c1.\fermata \bar "||"
+    \time 4/4 \tempoQuoniam \newSpacingSection R1*6 %80
+    r2 r8 f\fE f f
+    f8. f16 f8 f f f16 f f8 f
+    f f d\pE es f f, r f'\fE
+    f4 g8\pE a b b, r4
+    g'8\fE c f, b4 a8 b g
+    f4 es d16 e f4 e8
+    f4 r r2
+    r4 r8 d c f b, es~
+    es d d4 d r
+    r8 es d g c, f4 g8
+    f es16 d es8 d16 c d8 es c d
+    g f f4 f f
+    f1\fermata \bar "|."
+  }
+}

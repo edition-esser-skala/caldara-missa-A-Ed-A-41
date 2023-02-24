@@ -48,3 +48,82 @@ KyrieViolinoII = {
     b\breve\fermata \bar "|." %47 finis
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoGloria
+    r4 b'8\f b a a
+    b4 b,8 b a a
+    b4 d' c
+    b2 a4
+    r b8 c d b %5
+    g4. a8 b4~
+    b8 a b g a4
+    b2 r4
+    R2.*11 %19
+    r4 b\f c8 c %20
+    b f b b b a
+    b2 r4
+    r c8 b c a
+    d4 c4. b8
+    a d c b a g %25
+    f4 r r
+    r8 f\p c' b a g
+    f d g f e d
+    c4 r r
+    R2. %30
+    r4 r f'~
+    f e e~
+    e d d~
+    d cis cis
+    d d, d %35
+    d d cis
+    d2 r4
+    R2.*10 \bar "||" %47
+    \time 4/4 r4 \tempoQuiTollis d'\f d2 \noBreak
+    c r8 c c c
+    c4 b r b8 b %50
+    h2. a4
+    h2 a
+    r4 a b2
+    b r8 b b b \noBreak
+    a2 a \bar "||" %55
+    \time 3/2 \tempoSuscipe \newSpacingSection d,2\p r d \noBreak
+    d r cis
+    d r d
+    g, g g
+    gis a1 %60
+    d d'2\f
+    c! c c
+    b2. b4 b2
+    b1 a2
+    r f f %65
+    f f f
+    g g g
+    g g g
+    a1 g2
+    fis1 g2~ %70
+    g f1~
+    f2 es4 d es2~
+    es d1\trill \noBreak
+    c1.\fermata \bar "||"
+    \time 4/4 \tempoQuoniam \newSpacingSection R1*3 %77
+    r4 r16 d'\p e fis g8 g, f f'
+    es es, d d' c c, b b'
+    a a, g g' f f g g %80
+    es es f f b,16 d'\f c d b c d es
+    c4 r8 a b d16 c b8 b
+    b( a) d-!\p d-! d( c) r a\f
+    b( f) es'-!\p es-! es(\trill d) r4
+    b8\f es4 d8 es c d c16 b %85
+    a8 b c4 d8 c b4\trill
+    a r r r8 a
+    g c f, b4 a8 g a16 b
+    a8 g4 fis8 g b a d
+    g, c4 b8 c b16 a b8 a16 g %90
+    a8 g r a g c f, b~
+    b d c4 b a
+    b1\fermata \bar "|." %93 finis
+  }
+}
