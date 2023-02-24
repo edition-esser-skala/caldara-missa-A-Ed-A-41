@@ -12,7 +12,7 @@
   markup-system-spacing.minimum-distance = #10
   system-system-spacing.basic-distance = #17
   system-system-spacing.minimum-distance = #17
-  % systems-per-page = #2
+  systems-per-page = #2
 }
 
 \layout {
@@ -35,7 +35,7 @@
     \section "1" "Kyrie"
     \addTocEntry
     \paper { indent = 3\cm }
-    \score { %\articulate
+    \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<

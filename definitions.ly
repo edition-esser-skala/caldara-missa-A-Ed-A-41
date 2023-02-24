@@ -7,6 +7,8 @@
 
 
 tempoKyrie = \tempoMarkup "Andante"
+  tempoKyrieB = \tempo 1 = 60
+  % tempoKyrieB = \tempoMarkup "Allabreve"
 
 
 \include "notes/vl1.ly"
