@@ -502,3 +502,122 @@ CredoAltoLyrics = \lyricmode {
   a --
   men. %140 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr f2\fE^\tutti f4
+    g g g2
+    f r
+    \mvTr f4\pE^\solo g8 a b2~
+    b8[ g es c] a'2~ %5
+    a8[ f d b] g'2~
+    g8[ a16 b] a8[ g] fis fis g4~
+    g8[ fis16 e?] fis8. fis16 g4 \mvTr g~\fE^\tutti
+    g f8 f g4 f8 f
+    f4 f r2 %10
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoOsanna \mvTr f4\fE^\tutti f f \noBreak
+    g e2 %15
+    f8[ e f g f es?]
+    d4 b d
+    es f2
+    b,4 d e
+    f8[ e f g f es?] %20
+    d4 g8[ f] g4
+    a f2
+    f4 b2
+    g4( f2)
+    f r4 %25
+    f f f
+    g e2
+    f4 f r
+    R2.
+    g4 g g %30
+    a fis2
+    g4 g a
+    g e2
+    fis4 fis fis
+    g8[ fis g a g f?] %35
+    es4 d2
+    d4 d d
+    g8[ f! g a g f]
+    es[ d es f g es]
+    f4 f f %40
+    b g2
+    a4 a a
+    b8[ a b c b as]
+    g4 f2
+    f f4 %45
+    f2.
+    g4 f2 \noBreak
+    f2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*2 %50
+    r4 \mvTr g8\pE^\solo d es!4 d8 c
+    h2 c8 c as'4~
+    as8 as g2 f4~
+    f8[ es d c] d2~
+    d1~ %55
+    d8[ es!] f4 es4. es8
+    d1\fermata \markOsannaUtSupra \bar "||" %57 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus
+  Do -- mi -- nus De --
+  _ %5
+  _
+  _ _ us Sa --
+  _ ba -- oth. Ple --
+  ni sunt coe -- li et
+  ter -- ra. %10
+
+  O -- san -- na %14
+  in ex -- %15
+  cel --
+  _ sis, in
+  ex -- cel --
+  sis, in ex --
+  cel -- %20
+  _ _ _
+  _ sis,
+  in ex --
+  cel --
+  sis, %25
+  o -- san -- na
+  in ex --
+  cel -- sis,
+
+  o -- san -- na %30
+  in ex --
+  cel -- sis, in
+  ex -- cel --
+  sis, in ex --
+  cel -- %35
+  _ _
+  sis, in ex --
+  cel --
+  _
+  _ sis, in %40
+  ex -- cel --
+  sis, in ex --
+  cel --
+  _ sis,
+  in ex -- %45
+  cel --
+  _ _
+  sis.
+
+  Be -- ne -- di -- ctus, qui %51
+  ve -- nit in no --
+  mi -- ne Do --
+  _
+  %55
+  _ _ mi --
+  ni. %57 finis
+}

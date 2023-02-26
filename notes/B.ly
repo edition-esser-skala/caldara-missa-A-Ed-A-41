@@ -486,3 +486,105 @@ CredoBassoLyrics = \lyricmode {
 
   men. %140 finis
 }
+
+SanctusBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr b'2\fE^\tutti b4
+    g g e2
+    f r
+    R1*4 %7
+    r2 r4 \mvTr g~\fE^\tutti
+    g d8 d es4 b8 b
+    f'4 f, r2 %10
+    \mvTr f'8.[(\pE^\solo g16] f[ g f es!] d8.) d16 d4
+    es8.([ f16] g[ f es d] c4) d8 e \noBreak
+    f([ b,] c4) f,2\fermata \bar "||"
+    \time 3/4 \tempoOsanna R2.*6 %19
+    \mvTr f'4\fE^\tutti f f %20
+    g e2
+    f8[ e f g f es?]
+    d4 b d
+    es f2
+    b,4 d e %25
+    f f, f'
+    b, c2
+    f,4 r es'!
+    f g2
+    c, r4 %30
+    R2.
+    r4 r f!
+    g a2
+    d, r4
+    g g g %35
+    a fis2
+    g8[ fis g a g f?]
+    es[ d es f es d]
+    c4 c c8 c
+    f4 f r %40
+    R2.*2
+    b4 b b
+    c a2
+    b8[ a b d c b] %45
+    a4 f d
+    es f2 \noBreak
+    b,2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*3 %51
+    r4 \mvTr g'8\pE^\solo d es4 d8 c
+    h4 c8 c as'4 as8 as
+    a2 b
+    fis g %55
+    d es4. es8
+    b1\fermata \markOsannaUtSupra \bar "||" %57 finis
+  }
+}
+
+SanctusBassoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus.
+
+  Ple -- %8
+  ni sunt coe -- li et
+  ter -- ra %10
+  glo -- ri -- a,
+  glo -- ri -- a
+  tu -- a.
+
+  O -- san -- na %20
+  in ex --
+  cel --
+  _ sis, in
+  ex -- cel --
+  sis, in ex -- %25
+  cel -- sis, in
+  ex -- cel --
+  sis, in
+  ex -- cel --
+  sis, %30
+
+  in
+  ex -- cel --
+  sis,
+  o -- san -- na %35
+  in ex --
+  cel --
+  _
+  _ sis, in ex --
+  cel -- sis, %40
+
+  o -- san -- na %43
+  in ex --
+  cel -- %45
+  _ sis, in
+  ex -- cel --
+  sis.
+
+  Be -- ne -- di -- ctus, qui %52
+  ve -- nit in no -- mi -- ne
+  Do -- _
+  _ _ %55
+  _ _ mi --
+  ni. %57 finis
+}

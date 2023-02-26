@@ -256,3 +256,51 @@ CredoViolinoI = {
     b2.\fermata \bar "|." %140 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoSanctus
+    r4 d'2\fE d4
+    d d g2
+    c, r
+    R1*4
+    r2 r4 d~\f
+    d f8 f es4 d8 d
+    d4 c r2
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoOsanna R2.*3 %16
+    b4\fE b b
+    c a2
+    b8 a b d c b
+    a4 f a %20
+    b c2
+    f,4 a a
+    b8 c d es f4
+    es c2
+    d2. %25
+    c2 c4
+    b g2
+    a r4
+    R2.*3 %31
+    d4 d d
+    e cis2
+    d8 cis? d es d c
+    b4 g b %35
+    c d2
+    g, r4
+    R2.*2
+    f'4 f f %40
+    g e2
+    f8 e f g f es
+    d4 d d
+    es f2
+    b,4 b b %45
+    c c b~
+    b8 c a2 \noBreak
+    b2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*8 %56
+    R1\fermata \markOsannaUtSupra \bar "||" %57 finis
+  }
+}

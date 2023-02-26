@@ -522,20 +522,118 @@ CredoSopranoLyrics = \lyricmode {
   men. %140 finis
 }
 
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoSanctus
+    r4 \mvTr b'2\fE^\tutti b4
+    b b b2
+    a \mvTr c4\pE^\solo d8 e
+    f2~ f8[ d b g]
+    es'2~ es8[ c a f] %5
+    d'2~ d8[ es16 f] es8[ d]
+    c2. b4
+    a4. a8 g4 \mvTr b~\fE^\tutti
+    b b8 b b4 b8 b
+    b4 a r2 %10
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoOsanna R2.*3 %16
+    \mvTr b4\fE^\tutti b b
+    c a2
+    b8[ a b d c b]
+    a4 f a %20
+    b c2
+    f,4 a a
+    b8([ c d es)] f4
+    es c2
+    d2. %25
+    c2 c4
+    b( g2)
+    a r4
+    R2.*3 %31
+    d4 d d
+    e cis2
+    d8[ cis? d es d c]
+    b4 g b %35
+    c d2
+    g, r4
+    R2.*2
+    f'4 f f %40
+    g e2
+    f8[ e f g f es?]
+    d4 d d
+    es f2
+    b,4 b b %45
+    c c b~
+    b8 c a2 \noBreak
+    b2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus
+      r4 \mvTr d8\pE^\solo a b4 a8 g \noBreak
+    fis2 g8 g es'4~ %50
+    es8 d d d c4 d8 es
+    d8. g,16 g4 r2
+    r r8 c f4~
+    f f8 es d2
+    c b %55
+    as g4. g8
+    f1\fermata \markOsannaUtSupra \bar "||" %57 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus, san --
+  ctus Do -- mi -- nus
+  De --
+  _ %5
+  _ _
+  _ us
+  Sa -- ba -- oth. Ple --
+  ni sunt coe -- li et
+  ter -- ra. %10
+
+  O -- san -- na %17
+  in ex --
+  cel --
+  _ sis, in %20
+  ex -- cel --
+  sis, in ex --
+  cel -- sis,
+  ex -- cel --
+  sis, %25
+  in ex --
+  cel --
+  sis,
+
+  o -- san -- na %32
+  in ex --
+  cel --
+  _ sis, in %35
+  ex -- cel --
+  sis,
+
+  o -- san -- na %40
+  in ex --
+  cel --
+  _ sis, in
+  ex -- cel --
+  sis, in ex -- %45
+  cel -- sis, in __
+  ex -- cel --
+  sis.
+  Be -- ne -- di -- ctus, qui
+  ve -- nit in no -- %50
+  mi -- ne, in no -- mi -- ne
+  Do -- mi -- ni,
+  in no --
+  mi -- ne Do --
+  _ _ %55
+  _ _ mi --
+  ni. %57 finis
+}
 
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

@@ -224,3 +224,56 @@ CredoViola = {
     f2.\fermata \bar "|." %140 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoSanctus
+    r4 f2\fE f4
+    g g g2
+    f r
+    R1*4 %7
+    r2 r4 g~\fE
+    g f8 f g4 f8 f
+    f4 f r2 %10
+    R1*2 \noBreak
+    R1\fermata \bar "||"
+    \time 3/4 \tempoOsanna f4\fE f f \noBreak
+    g e2 %15
+    f8 e f g f es?
+    d4 b d
+    es f2
+    b,4 d e
+    f8 e f g f es? %20
+    d4 g8 f g4
+    a f2
+    f4 b2
+    g4 f2
+    f r4 %25
+    f f f
+    g e2
+    f4 f r
+    R2.
+    g4 g g %30
+    a fis2
+    g4 g a
+    g e2
+    fis4 fis fis
+    g8 fis g a g f? %35
+    es4 d2
+    d4 d d
+    g8 f! g a g f
+    es d es f g es
+    f4 f f %40
+    b g2
+    a4 a a
+    b8 a b c b as
+    g4 f2
+    f f4 %45
+    f2.
+    g4 f2 \noBreak
+    f2.\fermata \bar "||"
+    \time 4/4 \tempoBenedictus R1*8 %56
+    R1\fermata \markOsannaUtSupra \bar "||" %57 finis
+  }
+}
