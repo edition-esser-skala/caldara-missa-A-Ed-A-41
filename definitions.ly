@@ -12,6 +12,10 @@ tempoGloria = \tempoMarkup "[Allegro]"
   tempoQuiTollis = \tempoMarkup "Adagio"
   tempoSuscipe = \tempoMarkup "Andante"
   tempoQuoniam = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Adagio"
+  tempoCrucifixus = \tempoMarkup "Allabreve moderato"
+  tempoEtResurrexit = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

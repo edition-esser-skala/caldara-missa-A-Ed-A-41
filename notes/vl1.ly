@@ -128,3 +128,131 @@ GloriaViolinoI = {
     b1\fermata \bar "|." %93 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoCredo
+    d'2\fE c16 b a g f es d c
+    d8 f' b, d c4 r
+    r8 d d d c4^\critnote c
+    r8 c g'4 r8 c, f4
+    r8 f g, e' f, f'16( g) f( es d c) %5
+    b4 r r8 b g b
+    es2~ es8 d c4\trill
+    b r r2
+    R1*7 %15
+    a'8.\f b16 c8 a g2
+    a4 r b4. a8
+    g f es16 d c b a2
+    g4 r8 c d16 f es d c8 c
+    d16 f es d c4 d16 f es d c8 a %20
+    b16 f b d f8 f d f b, d
+    g,4 es'2 d4 \noBreak
+    c2 b\fermata \bar "||"
+    \tempoEtIncarnatus r4 es\fE es \once \tieDashed es~ \noBreak
+    es d2 c4~ %25
+    c b! as2
+    g4 c2 b!4
+    c2 b
+    f'4. c8 c2
+    r4 des2 c4 %30
+    b2.^\critnote as4
+    g1 \noBreak
+    f\fermata \bar "||"
+    \time 2/1 \tempoCrucifixus \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*4 %37
+    g1\fE f
+    b2 b g2. g4
+    f2 a b1 %40
+    as g~
+    g b2. b4
+    as2 g4 f c'1
+    b\breve
+    R %45
+    r2 b c d
+    es1 d
+    c b2 c
+    \once \tieDashed b\breve~
+    b1. b2 %50
+    b1 r
+    r r2 b
+    c d es1
+    d c
+    b\breve %55
+    g
+    g \noBreak
+    g\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R2.*3 %61
+    r16 f\p g a b4 r
+    r16 b c d es f g a b8 a16 g
+    a8 f r4 r16 a, b c
+    d8 d, d d d cis %65
+    d d'\f d8. d16 d8 d
+    d d d d d c
+    d a b( a) b( a)
+    b4-! b-! b-!
+    b-! es-! es-! %70
+    c-! c-! c-!
+    b-! b,\p d
+    es4 c' a!
+    b8 es a,4.\trill g8
+    g4 g'8\f f!16 es d8 g %75
+    es c d4 r8 h
+    c c c c h h
+    c c, r4 r
+    R2.*8 %86
+    r4 r fis'\f
+    g4. fis8 g fis
+    g4 fis r
+    R2.*4 %93
+    g8\f f e d c b
+    a4 g g' %95
+    a4. a8 g4
+    c8 g e c e g
+    a2.
+    g
+    a4 a, r %100
+    R2.
+    g'8 d b g a fis'
+    g4 r r
+    g8 b, a fis d fis'
+    g4 r r %105
+    g8 b a fis d fis
+    g,,4 b'\p g
+    a a f!
+    g g g
+    g f f %110
+    f e2\trill
+    f r4
+    R2.*3 %115
+    r16 f'\f g a b8 f d b
+    b,4 r r
+    r16 f'' g a b8 f b, d
+    c4 r r
+    r16 c d e f8 c a c %120
+    d4 r16 f g a b4
+    r16 d, es f g8 d b d
+    f4 r r
+    r16 c d e f4 r16 c d e
+    f4 r r %125
+    r16 f g a b8 f d b
+    b' d,16 es f8 d16 es f8 d16 es
+    f f g a b4 r16 f g a
+    b4. g8 a4~
+    a8 f g2\trill %130
+    f4 r r
+    b16 f d f b f d f b f d f
+    g8 g16 f es8 f es d
+    c16 a f a c a f a c a f a
+    d b f b d b f b d b f f' %135
+    f c a c f c a c f c a c
+    d b f b d b f b d b f b
+    c a f a c a f c' d4~
+    d8 es c2\trill
+    b2.\fermata \bar "|." %140 finis
+  }
+}

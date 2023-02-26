@@ -108,3 +108,119 @@ GloriaViola = {
     f1\fermata \bar "|."
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoCredo
+    r2 f\fE
+    d f
+    f8 f f f f4 f
+    r8 g g c, c c c c
+    c4. c8 c b a c %5
+    d es! f d g f es g
+    g g c, c c d f4
+    f r r2
+    R1*7 %15
+    f4\f f d b8 c
+    c4 a'2 g4~
+    g8 a b b, es4 d
+    d8 d c f f4 f
+    f8 b, c f f b, c f %20
+    f4 r r2
+    r8 b, c c c4 f \noBreak
+    f2 f\fermata \bar "||"
+    \tempoEtIncarnatus r4 b,\fE b b \noBreak
+    g2 g %25
+    g c4 d
+    h c des2
+    g, g-\critnote
+    c4. c8 c2
+    r r4 f %30
+    des c c c
+    c2. c4 \noBreak
+    c1\fermata \bar "||"
+    \time 2/1 \tempoCrucifixus \newSpacingSection
+      \set Staff.timeSignatureFraction = 2/2
+      R\breve*3 %36
+    c1\fE b
+    es2 es d2. c4
+    b2 d es4 d c b
+    a!2 f'1 es2~ %40
+    es d es1
+    r d
+    f2. f4 es2 d4 c
+    g'1 f~
+    f r %45
+    r r2 f
+    g a! b1
+    as g
+    f\breve
+    g2 g f2. f4 %50
+    g1 r
+    R\breve
+    r2 f g a!
+    b1 as
+    g f %55
+    es d2 es
+    d1. d2 \noBreak
+    c\breve\fermata \bar "||"
+    \time 3/4 \tempoEtResurrexit \newSpacingSection
+      \unset Staff.timeSignatureFraction
+      R2.*7 %65
+    r8 a\fE b8. a16 b8 a
+    b a b a g4
+    a r r
+    r d d
+    d b c %70
+    c c c
+    d r r
+    R2.*2
+    r4 g\fE g %75
+    g g g
+    g8 g g4. g8
+    g4 r r
+    R2.*8 %86
+    r4 r d\fE
+    d4. d8 d d
+    d4 d r
+    R2.*4 %93
+    c4\f c c
+    c c c %95
+    c c c
+    c c c
+    c c c
+    c2 c4
+    c2 r4 %100
+    r r d
+    d r r
+    b d r
+    b d r
+    b d r %105
+    b d r
+    R2.*11 %117
+    r4 r f\fE
+    f f, f'
+    f f, f' %120
+    d8 es d c b4
+    r8 b d c d b
+    f' g f es d4
+    c c r
+    R2. %125
+    r4 r d
+    d d, d'
+    d d, d'
+    d b c~
+    c c2 %130
+    c4 c c
+    b d d
+    es es b
+    f' f f
+    f f f %135
+    f f f
+    f f f
+    f2 \once \tieDashed f4~
+    f f2
+    f2.\fermata \bar "|." %140 finis
+  }
+}
