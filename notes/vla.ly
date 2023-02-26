@@ -277,3 +277,47 @@ SanctusViola = {
     R1\fermata \markOsannaUtSupra \bar "||" %57 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoAgnus
+    b1~\pE
+    b~
+    b
+    c2 b~
+    b b~ %5
+    b1~
+    b2 c~
+    c as
+    b g!4 f
+    g2 as4 f'8\f f %10
+    f4 c8 c a!4 a8 a
+    b4 b b2 \noBreak
+    a1\fermata \bar "||"
+    \tempoDona r4 b'2\fE a4 \noBreak
+    r g2 f4 %15
+    b2 a4 r
+    r f2 es4
+    d2 c
+    b r
+    R1 %20
+    r2 f'8 f g a
+    b4 b, c8 d es f
+    g a b2 a4
+    b b,8 c d es f es
+    d4 d d2 %25
+    d4 b'2 a4
+    r g2 f4
+    f f r g~
+    g f2 es4
+    d8 es f4 f2 %30
+    f r
+    es8 f g a b4 a
+    g2 f
+    f1~
+    f~ %35
+    f
+    f\fermata \bar "|." %37 finis
+  }
+}

@@ -606,3 +606,80 @@ SanctusTenoreLyrics = \lyricmode {
   _ _ _ mi --
   ni. %57 finis
 }
+
+AgnusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*4
+    r2 \mvTr es4\pE^\solo b %5
+    g es8 es des'4 des
+    r8 des des c c4 c
+    c8 b as g as4 g8([ f)]
+    des'([ b)] ges([ f)] e4 f
+    f( e) f \mvTr c'8\fE^\tutti c %10
+    c4 c8 c c4 c8 c
+    b4 b b2 \noBreak
+    a1\fermata \bar "||"
+    \tempoDona \mvTr b8\fE^\tutti c d es f4 f, \noBreak
+    g8[ a b c] d[ e] f4~ %15
+    f e f es~
+    es d r c~
+    c b es2
+    d r4 c~
+    c b r a( %20
+    g2) a4 r
+    r b2 a4
+    r g( es f)
+    f d'2 c4
+    r b2 a4 %25
+    g8 a b c d4 d,
+    es8[ f g a] b[ c] d4~
+    d c g8 a b c
+    d4d, es8[ f g a]
+    b[ c] d4 c2 %30
+    b r4 c~
+    c b r d~
+    d c r d
+    c2. b4~
+    b a d2 %35
+    c1
+    d\fermata \bar "|." %37 finis
+  }
+}
+
+AgnusTenoreLyrics = \lyricmode {
+  A -- gnus %5
+  De -- i, qui tol -- lis
+  pec -- ca -- ta mun -- di:
+  Mi -- se -- re -- re no -- bis,
+  mi -- se -- re -- re
+  no -- bis. A -- gnus %10
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+  Do -- na no -- bis pa -- cem,
+  pa -- _ _ %15
+  _ cem, pa --
+  cem, pa --
+  cem, pa --
+  cem, do --
+  na no -- %20
+  bis
+  pa -- cem,
+  pa --
+  cem, do -- na
+  no -- bis, %25
+  do -- na no -- bis pa -- cem,
+  pa -- _ _
+  cem, do -- na no -- bis
+  pa -- cem, pa --
+  _ _ _ %30
+  cem, do --
+  na no --
+  bis pa --
+  _ _
+  cem, pa -- %35
+  _
+  cem. %37 finis
+}

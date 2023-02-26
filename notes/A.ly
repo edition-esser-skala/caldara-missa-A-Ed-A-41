@@ -621,3 +621,69 @@ SanctusAltoLyrics = \lyricmode {
   _ _ mi --
   ni. %57 finis
 }
+
+AgnusAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoAgnus
+    R1*9 %9
+    r2 r4 \mvTr f8\fE^\tutti f %10
+    f4 f8 f fis4 fis8 fis
+    d4 d e2 \noBreak
+    d1\fermata \bar "||"
+    \tempoDona r4 \mvTr b'2\fE^\tutti a4 \noBreak
+    r g2 f4 %15
+    b2 a4 r
+    r f2 es4
+    d2( c)
+    b r
+    R1 %20
+    r2 f'8 f g a
+    b4 b, c8[ d es f]
+    g[ a] b2 a4
+    b b,8 c d es f([ es]
+    d4) d d2 %25
+    d4 b'2 a4
+    r g2 f4
+    f f r g~
+    g f2 es4
+    d8[ es] f4 f2 %30
+    f r
+    es8 f g a b4 a
+    g2 f
+    f1~
+    f~ %35
+    f
+    f\fermata \bar "|." %37 finis
+  }
+}
+
+AgnusAltoLyrics = \lyricmode {
+  A -- gnus %10
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+  \xE Pa -- cem, \x
+  pa -- cem, %15
+  pa -- cem,
+  pa -- cem,
+  pa --
+  cem,
+  %20
+  do -- na no -- bis
+  pa -- cem, pa --
+  _ _ _
+  cem, do -- na no -- bis pa --
+  cem, pa -- %25
+  cem, do -- na
+  no -- bis
+  pa -- cem, pa --
+  _ _
+  _ cem, pa -- %30
+  cem,
+  do -- na no -- bis pa -- cem,
+  pa -- cem,
+  pa --
+
+  cem. %37 finis
+}

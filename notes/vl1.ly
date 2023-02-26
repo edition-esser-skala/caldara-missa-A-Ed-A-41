@@ -304,3 +304,46 @@ SanctusViolinoI = {
     R1\fermata \markOsannaUtSupra \bar "||" %57 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoAgnus
+    f1~\pE
+    f
+    g
+    as2. g4
+    f2 g~ %5
+    g1~
+    g~
+    g2 f~
+    f4 b2 as4
+    g2\trill f4 c'8\f c %10
+    c4 c8 c c4 c8 c
+    b4 b g2 \noBreak
+    fis1\fermata \bar "||"
+    \tempoDona r4 d'2\fE c4 \noBreak
+    r b2 a4 %15
+    g2 f4 r
+    R1*2
+    b8 c d e f4 f,
+    g8 a b c d e f4~ %20
+    f e f es~
+    es d r c~
+    c b c2
+    b4 b2 a4
+    r g2 fis4 %25
+    g r r d'~
+    d c r b~
+    b a r es'~
+    es d r c~
+    c b2 a4 %30
+    b8 c d es f4 f,
+    g8 a b c d4 d,
+    es8 f g a b f b4~
+    b a d2
+    c2. b4~ %35
+    b a8 g a2
+    b1\fermata \bar "|." %37 finis
+  }
+}

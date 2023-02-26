@@ -25,6 +25,8 @@ tempoCredo = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Andante"
   tempoOsanna = \tempoMarkup "Osanna · Allegro"
   tempoBenedictus = \tempoMarkup "Largo"
+tempoAgnus = \tempoMarkup "Adagio"
+  tempoDona = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

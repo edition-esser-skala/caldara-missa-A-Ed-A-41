@@ -747,3 +747,88 @@ SanctusBassFigures = \figuremode {
   <5- 4> <\t 3>2.
   r1 %57 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoAgnus
+    \mvTr b1~\pE-\solo
+    b
+    es
+    as,2 b~
+    b es~ %5
+    es1~
+    es2 e~
+    e f
+    b, \once \tieDashed c~
+    c f,4 \mvTr f'\fE-\tuttiE %10
+    es!2 d
+    g cis, \noBreak
+    d1\fermata \bar "||"
+    \clef "treble_8" \tempoDona
+      \mvTr b'8\fE-\tutti c d es f4 f, \noBreak
+    g8 a b c d e f4~ %15
+    f e \clef bass f,8 f g a
+    b4 b, c8 d es f
+    g a b2 a4
+    b b2 a4
+    g g2 f4 %20
+    c2 f,8  \clef treble f''[ g a]
+    b4 \clef "treble_8" b,2 a4
+    g g es f
+    \clef bass b,8 c d es f4 f,
+    g8 a b c d2 %25
+    g,4 g'2 f!4
+    r es2 d4
+    f f, es'8 f g a
+    b4 b, c8 d es f
+    g4 d f f, %30
+    b b'2 a4
+    r g2 f4
+    r es2 d4
+    f1~
+    f~ %35
+    f
+    b,\fermata \bar "|." %37 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r1
+  <7->
+  r
+  <5>4 <6> <7- 3> <6 4>
+  <5 \t> <\t 3>2. %5
+  r2 <7->
+  r <6>
+  r <_->
+  <5 _->4 <6- \t> <[7] 5! _!> <6- 4>
+  <5 \t> <\t 3> <_->2 %10
+  <6 4! 2> <7 _+>
+  r <7 [_!]>
+  <_+>1
+  r2 <6 4>4 <5 3>
+  <9> <6> \bo <[6] 4> \bc <[3]> %15
+  <2> <\t>2 <6->4
+  <4> <3> <4> <[6]>
+  <5 4> <3> <2> <[\t]>
+  r2. <[6]>4
+  <4> <3>2. %20
+  <4>4 <_!>2 <6->4
+  <[4]> <3> <2> <[6]>
+  <4> <3> <6 5>2
+  r <6 4>4 <5 3>
+  <9> <[6]> <6 4> <5 _+> %25
+  r2. <6>4
+  r q2 q4
+  <6 4> <5 3>2.
+  <6 4>4 <5 3> <4> <[6]>
+  <5 4> <6> <4> <3> %30
+  r <3> <5 2> <6>
+  r <5>2 <6>4
+  r <6> <[5] 2> <6>
+  <5 4> <\t 3> <6 5> <\t 4>
+  <5 \t> <\t 3> <6 5> <\t 4> %35
+  <5 \t>2 <\t 3>
+  r1 %37 finis
+}

@@ -588,3 +588,76 @@ SanctusBassoLyrics = \lyricmode {
   _ _ mi --
   ni. %57 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoAgnus
+    \mvTr b'4\pE^\solo f d b8 b
+    as'4 as r8 as as g
+    g4 g r b8 g
+    c,4 as' b,2~
+    b es %5
+    R1*4
+    r2 r4 \mvTr f8\fE^\tutti f %10
+    es!4 es8 es d4 d8 d
+    g4 g cis,2 \noBreak
+    d1\fermata \bar "||"
+    \tempoDona R1*2 %15
+    r2 \mvTr f8\fE^\tutti f g a
+    b4 b, c8[ d es f]
+    g[ a] b2 a4
+    b b2 a4
+    r g2 f4 %20
+    c2 f,4 r
+    R1*2
+    b8 c d es f4 f,
+    g8[( a b c] d2) %25
+    g,4 g'2 f!4
+    r es2 d4
+    f f, es'8 f g a
+    b4 b, c8[( d es f]
+    g4) d f2 %30
+    b,4 b'2 a4
+    r g2 f4
+    r es2 d4
+    f1~
+    f~ %35
+    f
+    b,\fermata \bar "|." %37 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di: Mi -- se --
+  re -- re no --
+  bis. %5
+
+  A -- gnus %10
+  De -- i, qui tol -- lis pec --
+  ca -- ta mun --
+  di:
+
+  Do -- na no -- bis %16
+  pa -- cem, pa --
+  _ _ _
+  cem, pa -- cem,
+  pa -- cem, %20
+  pa -- cem,
+
+  do -- na no -- bis pa -- cem, %24
+  pa -- %25
+  cem, pa -- cem,
+  pa -- cem,
+  pa -- cem, do -- na no -- bis
+  pa -- cem, pa --
+  cem, pa -- %30
+  cem, pa -- cem,
+  do -- na
+  no -- bis
+  pa --
+
+  cem. %37 finis
+}
